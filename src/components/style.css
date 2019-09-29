@@ -1,0 +1,87 @@
+.add-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.close-icon{
+    font-size: 17px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.step-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-border{
+    border: 2px solid;
+    box-shadow: 3px 4px 0px 0px #000000;
+}
+
+.inactive-step{
+    padding: 2px 29px;
+}
+
+.ative-step{
+    padding: 2px 29px;
+    background: #95bdf2;
+}
+
+.select-dishes{
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+
+.select-dishes-container{
+    width: 100%;
+    float: left;
+}
+
+.serving-dishes{
+    padding-left: 10px;
+    width: 50%;
+    float: right;
+}
+
+.dishes{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid;
+    margin: 15px 0;
+    background-color: #e3e7eb;
+}
+
+.dishes-quantity{
+    float: right
+}
+
+.order-details{
+    padding-bottom: 25px;
+
+}
+
+.review-order-label{
+    width: 50%;
+}
+
+.order-dishes{
+    border: 2px solid;
+    padding: 8px 11px 20px;
+    display: inline-grid;
+}
+
+.dishes-deatils{
+    display: inline-flex;
+}
+
+.order-dishes-quantity{
+    margin-left: 8px
+}
+
+.success-messages{
+    color: #248604!important;
+    font-weight: 700;
+}
